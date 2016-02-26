@@ -1,0 +1,412 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Marius Dypdalsbakk, NTNU, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      UL2CM3.DLL V1.156.1.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\Marius\Documents\Nordicsemi\nrf52test.uvprojx
+Project File Date:  02/04/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling bsp_btn_ant.c...
+C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp\bsp_btn_ant.h(32): error:  #5: cannot open source input file "ant_stack_handler_types.h": No such file or directory
+  #include "ant_stack_handler_types.h"
+RTE\Board_Support\nRF52832_xxAA\bsp_btn_ant.c: 0 warnings, 1 error
+compiling bsp.c...
+C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp\boards.h(15): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+  #include "nrf_gpio.h"
+RTE\Board_Support\nRF52832_xxAA\bsp.c: 0 warnings, 1 error
+compiling bsp_btn_ble.c...
+C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp\bsp_btn_ble.h(32): error:  #5: cannot open source input file "ble.h": No such file or directory
+  #include "ble.h"
+RTE\Board_Support\nRF52832_xxAA\bsp_btn_ble.c: 0 warnings, 1 error
+compiling retarget_io.c...
+C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\FileSystem\Include\rl_fs_lib.h(43): error:  #5: cannot open source input file "cmsis_os.h": No such file or directory
+  #include "cmsis_os.h"
+C:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.0.0\Source\retarget_io.c: 0 warnings, 1 error
+assembling arm_startup_nrf52.s...
+compiling ble_srv_common.c...
+C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\common\ble_srv_common.h(26): error:  #5: cannot open source input file "ble_types.h": No such file or directory
+  #include "ble_types.h"
+C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\common\ble_srv_common.c: 0 warnings, 1 error
+compiling FS_Config.c...
+C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\FileSystem\Include\rl_fs_lib.h(43): error:  #5: cannot open source input file "cmsis_os.h": No such file or directory
+  #include "cmsis_os.h"
+RTE\File_System\FS_Config.c: 0 warnings, 1 error
+compiling device_manager_peripheral.c...
+C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\device_manager\device_manager.h(69): error:  #5: cannot open source input file "sdk_common.h": No such file or directory
+  #include "sdk_common.h"
+C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\device_manager\device_manager_peripheral.c: 0 warnings, 1 error
+compiling ble_advdata.c...
+RTE\nRF_BLE\nRF52832_xxAA\ble_advdata.h(28): error:  #5: cannot open source input file "ble.h": No such file or directory
+  #include "ble.h"
+RTE\nRF_BLE\nRF52832_xxAA\ble_advdata.c: 0 warnings, 1 error
+compiling ble_advertising.c...
+RTE\nRF_BLE\nRF52832_xxAA\ble_advdata.h(28): error:  #5: cannot open source input file "ble.h": No such file or directory
+  #include "ble.h"
+RTE\nRF_BLE\nRF52832_xxAA\ble_advertising.c: 0 warnings, 1 error
+compiling ble_conn_params.c...
+RTE\nRF_BLE\nRF52832_xxAA\ble_conn_params.h(25): error:  #5: cannot open source input file "ble.h": No such file or directory
+  #include "ble.h"
+RTE\nRF_BLE\nRF52832_xxAA\ble_conn_params.c: 0 warnings, 1 error
+compiling ble_conn_state.c...
+RTE\nRF_BLE\nRF52832_xxAA\ble_conn_state.h(45): error:  #5: cannot open source input file "ble.h": No such file or directory
+  #include "ble.h"
+RTE\nRF_BLE\nRF52832_xxAA\ble_conn_state.c: 0 warnings, 1 error
+compiling ble_db_discovery.c...
+RTE\nRF_BLE\nRF52832_xxAA\ble_db_discovery.h(47): error:  #5: cannot open source input file "ble_gattc.h": No such file or directory
+  #include "ble_gattc.h"
+RTE\nRF_BLE\nRF52832_xxAA\ble_db_discovery.c: 0 warnings, 1 error
+compiling system_nrf52.c...
+compiling ble_debug_assert_handler.c...
+RTE\nRF_BLE\nRF52832_xxAA\ble_error_log.h(29): error:  #5: cannot open source input file "ble_flash.h": No such file or directory
+  #include "ble_flash.h"
+RTE\nRF_BLE\nRF52832_xxAA\ble_debug_assert_handler.c: 0 warnings, 1 error
+compiling ble_racp.c...
+RTE\nRF_BLE\nRF52832_xxAA\ble_racp.h(25): error:  #5: cannot open source input file "ble.h": No such file or directory
+  #include "ble.h"
+RTE\nRF_BLE\nRF52832_xxAA\ble_racp.c: 0 warnings, 1 error
+compiling ble_radio_notification.c...
+RTE\nRF_BLE\nRF52832_xxAA\ble_radio_notification.h(25): error:  #5: cannot open source input file "nrf_soc.h": No such file or directory
+  #include "nrf_soc.h"
+RTE\nRF_BLE\nRF52832_xxAA\ble_radio_notification.c: 0 warnings, 1 error
+compiling ble_dtm.c...
+compiling gatt_cache_manager.c...
+RTE\nRF_BLE\nRF52832_xxAA\gatt_cache_manager.h(7): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+RTE\nRF_BLE\nRF52832_xxAA\gatt_cache_manager.c: 0 warnings, 1 error
+compiling gattc_cache_manager.c...
+RTE\nRF_BLE\nRF52832_xxAA\gattc_cache_manager.h(7): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+RTE\nRF_BLE\nRF52832_xxAA\gattc_cache_manager.c: 0 warnings, 1 error
+compiling ble_error_log.c...
+RTE\nRF_BLE\nRF52832_xxAA\ble_error_log.h(29): error:  #5: cannot open source input file "ble_flash.h": No such file or directory
+  #include "ble_flash.h"
+RTE\nRF_BLE\nRF52832_xxAA\ble_error_log.c: 0 warnings, 1 error
+compiling gatts_cache_manager.c...
+RTE\nRF_BLE\nRF52832_xxAA\gatts_cache_manager.h(7): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+RTE\nRF_BLE\nRF52832_xxAA\gatts_cache_manager.c: 0 warnings, 1 error
+compiling id_manager.c...
+RTE\nRF_BLE\nRF52832_xxAA\id_manager.h(16): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+RTE\nRF_BLE\nRF52832_xxAA\id_manager.c: 0 warnings, 1 error
+compiling peer_data_storage.c...
+RTE\nRF_BLE\nRF52832_xxAA\peer_data_storage.h(19): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+RTE\nRF_BLE\nRF52832_xxAA\peer_data_storage.c: 0 warnings, 1 error
+compiling peer_data.c...
+RTE\nRF_BLE\nRF52832_xxAA\peer_manager_types.h(20): error:  #5: cannot open source input file "ble_gap.h": No such file or directory
+  #include "ble_gap.h"
+RTE\nRF_BLE\nRF52832_xxAA\peer_data.c: 0 warnings, 1 error
+compiling peer_database.c...
+RTE\nRF_BLE\nRF52832_xxAA\peer_manager_types.h(20): error:  #5: cannot open source input file "ble_gap.h": No such file or directory
+  #include "ble_gap.h"
+RTE\nRF_BLE\nRF52832_xxAA\peer_database.c: 0 warnings, 1 error
+compiling peer_id.c...
+RTE\nRF_BLE\nRF52832_xxAA\peer_id.h(19): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+RTE\nRF_BLE\nRF52832_xxAA\peer_id.c: 0 warnings, 1 error
+compiling peer_manager.c...
+RTE\nRF_BLE\nRF52832_xxAA\peer_manager.h(32): error:  #5: cannot open source input file "sdk_common.h": No such file or directory
+  #include "sdk_common.h"
+RTE\nRF_BLE\nRF52832_xxAA\peer_manager.c: 0 warnings, 1 error
+compiling pm_buffer.c...
+RTE\nRF_BLE\nRF52832_xxAA\pm_buffer.h(18): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+RTE\nRF_BLE\nRF52832_xxAA\pm_buffer.c: 0 warnings, 1 error
+compiling pm_mutex.c...
+RTE\nRF_BLE\nRF52832_xxAA\pm_mutex.c(18): error:  #5: cannot open source input file "nrf_error.h": No such file or directory
+  #include "nrf_error.h"
+RTE\nRF_BLE\nRF52832_xxAA\pm_mutex.c: 0 warnings, 1 error
+compiling security_dispatcher.c...
+RTE\nRF_BLE\nRF52832_xxAA\security_dispatcher.h(17): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+RTE\nRF_BLE\nRF52832_xxAA\security_dispatcher.c: 0 warnings, 1 error
+compiling security_manager.c...
+RTE\nRF_BLE\nRF52832_xxAA\security_manager.h(17): error:  #5: cannot open source input file "sdk_errors.h": No such file or directory
+  #include "sdk_errors.h"
+RTE\nRF_BLE\nRF52832_xxAA\security_manager.c: 0 warnings, 1 error
+".\Objects\nrf52test.axf" - 29 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:DSP:1.4.6
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: DSP Version: 1.4.6
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.0.0.pack
+                Keil::Compiler:I/O:STDERR:User:1.0.0
+                Keil ARM Compiler extensions
+   * Component: STDERR Variant: User Version: 1.0.0
+   * Component: TTY Variant: User Version: 1.0.0
+   * Component: File Variant: File System Version: 1.0.0
+   * Component: STDIN Variant: User Version: 1.0.0
+   * Component: STDOUT Variant: User Version: 1.0.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_BLE/NordicSemiconductor.nRF_BLE.4.0.0-2.alpha.pack
+                NordicSemiconductor::nRF_BLE:BLE_Modules:id_manager:4.0.0-2.alpha
+                Bluetooth Low Energy (Bluetooth Smart) services and software modules for Nordic Semiconductor nRF family.
+   * Component: id_manager Version: 4.0.0-2.alpha
+   * Component: pm_mutex Version: 4.0.0-2.alpha
+   * Component: ble_date_time Version: 4.0.0-2.alpha
+   * Component: peer_manager Version: 4.0.0-2.alpha
+   * Component: gatt_cache_manager Version: 4.0.0-2.alpha
+   * Component: ble_db_discovery Version: 4.0.0-2.alpha
+   * Component: peer_data_storage Version: 4.0.0-2.alpha
+   * Component: pm_buffer Version: 4.0.0-2.alpha
+   * Component: peer_id Version: 4.0.0-2.alpha
+   * Component: ble_racp Version: 4.0.0-2.alpha
+   * Component: ble_error_log Version: 4.0.0-2.alpha
+   * Component: ble_dtm Version: 4.0.0-2.alpha
+   * Component: peer_data Version: 4.0.0-2.alpha
+   * Component: gattc_cache_manager Version: 4.0.0-2.alpha
+   * Component: ble_service_common Version: 4.0.0-2.alpha
+   * Component: ble_conn_params Version: 4.0.0-2.alpha
+   * Component: gatts_cache_manager Version: 4.0.0-2.alpha
+   * Component: ble_conn_state Version: 4.0.0-2.alpha
+   * Component: peer_database Version: 4.0.0-2.alpha
+   * Component: device_manager Variant: Peripheral Version: 4.0.0-2.alpha
+   * Component: ble_debug_assert_handler Version: 4.0.0-2.alpha
+   * Component: ble_gatt_db Version: 4.0.0-2.alpha
+   * Component: ble_radio_notification Version: 4.0.0-2.alpha
+   * Component: ble_advertising Version: 4.0.0-2.alpha
+   * Component: ble_advdata Version: 4.0.0-2.alpha
+   * Component: security_manager Version: 4.0.0-2.alpha
+   * Component: security_dispatcher Version: 4.0.0-2.alpha
+   * Component: ble_common Version: 4.0.0-2.alpha
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.3.2.pack
+                NordicSemiconductor::Device:Startup:8.3.2
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.3.2
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Examples/NordicSemiconductor.nRF_Examples.11.0.0-2.alpha.pack
+                NordicSemiconductor::Board Support:bsp:default:11.0.0-2.alpha
+                Examples and BSP for Nordic Semiconductor nRF family.
+   * Component: bsp Variant: default Version: 11.0.0-2.alpha
+   * Component: bsp_btn_ble Version: 11.0.0-2.alpha
+   * Component: bsp_btn_ant Version: 11.0.0-2.alpha
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.6.5.0.pack
+                Keil.MDK-Pro::USB:CORE:6.5.0
+                Keil MDK-ARM Professional Middleware for ARM Cortex-M based devices
+   * Component: CORE Version: 6.5.0
+   * Component: CORE Variant: SFN Version: 6.5.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Marius\Documents\Nordicsemi\RTE
+  C:\Users\Marius\Documents\Nordicsemi\RTE\nRF_BLE\nRF52832_xxAA
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\FileSystem\Include
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.5.0\USB\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\ble_advertising
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\ble_db_discovery
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\ble_debug_assert_handler
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\ble_dtm
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\ble_error_log
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\ble_racp
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\ble_radio_notification
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\common
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\device_manager
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_BLE\4.0.0-2.alpha\peer_manager
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.2\Device\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:DSP:1.4.6
+      Include file:  CMSIS\Include\arm_math.h
+      Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: Keil::Compiler:I/O:STDERR:User:1.0.0
+      Source file:   Source\retarget_io.c
+      Source file:   Template\stderr_display.c
+      Source file:   Template\stderr_user.c
+      Source file:   Template\stderr_USART.c
+
+   * Component: Keil::Compiler:I/O:TTY:User:1.0.0
+      Source file:   Template\tty_user.c
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil::Compiler:I/O:File:File System:1.0.0
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil::Compiler:I/O:STDIN:User:1.0.0
+      Source file:   Source\retarget_io.c
+      Source file:   Template\stdin_USART.c
+      Source file:   Template\stdin_user.c
+      Source file:   Template\stdin_keyboard.c
+
+   * Component: Keil::Compiler:I/O:STDOUT:User:1.0.0
+      Source file:   Template\stdout_USART.c
+      Source file:   Source\retarget_io.c
+      Source file:   Template\stdout_user.c
+      Source file:   Template\stdout_display.c
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:id_manager:4.0.0-2.alpha
+      Source file:   peer_manager\id_manager.c
+      Include file:  peer_manager\id_manager.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:pm_mutex:4.0.0-2.alpha
+      Source file:   peer_manager\pm_mutex.c
+      Include file:  peer_manager\pm_mutex.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_date_time:4.0.0-2.alpha
+      Include file:  common\ble_date_time.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:peer_manager:4.0.0-2.alpha
+      Include file:  peer_manager\peer_manager.h
+      Source file:   peer_manager\peer_manager.c
+      Include file:  peer_manager\peer_manager_types.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:gatt_cache_manager:4.0.0-2.alpha
+      Include file:  peer_manager\gatt_cache_manager.h
+      Source file:   peer_manager\gatt_cache_manager.c
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_db_discovery:4.0.0-2.alpha
+      Source file:   ble_db_discovery\ble_db_discovery.c
+      Include file:  ble_db_discovery\ble_db_discovery.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:peer_data_storage:4.0.0-2.alpha
+      Source file:   peer_manager\peer_data_storage.c
+      Include file:  peer_manager\peer_data_storage.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:pm_buffer:4.0.0-2.alpha
+      Source file:   peer_manager\pm_buffer.c
+      Include file:  peer_manager\pm_buffer.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:peer_id:4.0.0-2.alpha
+      Include file:  peer_manager\peer_id.h
+      Source file:   peer_manager\peer_id.c
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_racp:4.0.0-2.alpha
+      Source file:   ble_racp\ble_racp.c
+      Include file:  ble_racp\ble_racp.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_error_log:4.0.0-2.alpha
+      Source file:   ble_error_log\ble_error_log.c
+      Include file:  ble_error_log\ble_error_log.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_dtm:4.0.0-2.alpha
+      Include file:  ble_dtm\ble_dtm.h
+      Source file:   ble_dtm\ble_dtm.c
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:peer_data:4.0.0-2.alpha
+      Include file:  peer_manager\peer_data.h
+      Source file:   peer_manager\peer_data.c
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:gattc_cache_manager:4.0.0-2.alpha
+      Source file:   peer_manager\gattc_cache_manager.c
+      Include file:  peer_manager\gattc_cache_manager.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_service_common:4.0.0-2.alpha
+      Source file:   common\ble_srv_common.c
+      Include file:  common\ble_srv_common.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_conn_params:4.0.0-2.alpha
+      Include file:  common\ble_conn_params.h
+      Source file:   common\ble_conn_params.c
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:gatts_cache_manager:4.0.0-2.alpha
+      Source file:   peer_manager\gatts_cache_manager.c
+      Include file:  peer_manager\gatts_cache_manager.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_conn_state:4.0.0-2.alpha
+      Source file:   common\ble_conn_state.c
+      Include file:  common\ble_conn_state.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:peer_database:4.0.0-2.alpha
+      Source file:   peer_manager\peer_database.c
+      Include file:  peer_manager\peer_database.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:device_manager:Peripheral:4.0.0-2.alpha
+      Include file:  device_manager\config\device_manager_cnfg.h
+      Include file:  device_manager\device_manager.h
+      Source file:   device_manager\device_manager_peripheral.c
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_debug_assert_handler:4.0.0-2.alpha
+      Source file:   ble_debug_assert_handler\ble_debug_assert_handler.c
+      Include file:  ble_debug_assert_handler\ble_debug_assert_handler.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_gatt_db:4.0.0-2.alpha
+      Include file:  common\ble_gatt_db.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_radio_notification:4.0.0-2.alpha
+      Include file:  ble_radio_notification\ble_radio_notification.h
+      Source file:   ble_radio_notification\ble_radio_notification.c
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_advertising:4.0.0-2.alpha
+      Source file:   ble_advertising\ble_advertising.c
+      Include file:  ble_advertising\ble_advertising.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_advdata:4.0.0-2.alpha
+      Source file:   common\ble_advdata.c
+      Include file:  common\ble_advdata.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:security_manager:4.0.0-2.alpha
+      Source file:   peer_manager\security_manager.c
+      Include file:  peer_manager\security_manager.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:security_dispatcher:4.0.0-2.alpha
+      Source file:   peer_manager\security_dispatcher.c
+      Include file:  peer_manager\security_dispatcher.h
+
+   * Component: NordicSemiconductor::nRF_BLE:BLE_Modules:ble_common:4.0.0-2.alpha
+
+   * Component: NordicSemiconductor::Device:Startup:8.3.2
+      Source file:   Device\Source\system_nrf52.c
+      Source file:   Device\Source\arm\arm_startup_nrf52.s
+      Include file:  Device\Include\system_nrf52.h
+
+   * Component: NordicSemiconductor::Board Support:bsp:default:11.0.0-2.alpha
+      Source file:   bsp\bsp.c
+
+   * Component: NordicSemiconductor::Board Support:bsp_btn_ble:11.0.0-2.alpha
+      Source file:   bsp\bsp_btn_ble.c
+
+   * Component: NordicSemiconductor::Board Support:bsp_btn_ant:11.0.0-2.alpha
+      Source file:   bsp\bsp_btn_ant.c
+
+   * Component: Keil.MDK-Pro::USB:CORE:6.5.0
+      Include file:  USB\Include\rl_usb.h
+      Library file:  USB\Lib\ARM\USB_CM3_L.lib
+
+   * Component: Keil.MDK-Pro::File System:CORE:SFN:6.5.0
+      Library file:  FileSystem\Lib\ARM\FS_SFN_CM3_L.lib
+      Include file:  FileSystem\Include\rl_fs.h
+      Source file:   FileSystem\Config\FS_Config.c
+Target not created.
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>
